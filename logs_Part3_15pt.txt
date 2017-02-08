@@ -1,0 +1,195 @@
+Extracting /cis/home/ajacob/Documents/cnn/data/train-images-idx3-ubyte.gz
+Extracting /cis/home/ajacob/Documents/cnn/data/train-labels-idx1-ubyte.gz
+Extracting /cis/home/ajacob/Documents/cnn/data/t10k-images-idx3-ubyte.gz
+Extracting /cis/home/ajacob/Documents/cnn/data/t10k-labels-idx1-ubyte.gz
+step 0, training accuracy 0.14
+step 100, training accuracy 0.58
+step 200, training accuracy 0.8
+step 300, training accuracy 0.78
+step 400, training accuracy 0.8
+step 500, training accuracy 0.8
+step 600, training accuracy 0.72
+step 700, training accuracy 0.8
+step 800, training accuracy 0.66
+step 900, training accuracy 0.8
+step 1000, training accuracy 0.76
+step 1100, training accuracy 0.72
+% ==== Iteration1 : Test accuracy = 0.9494 ==== %
+Confusion Matrix: 
+Predicted    0     1    2    3    4    5    6    7    8    9
+Actual                                                      
+0          967     1    2    0    0    3    3    1    3    0
+1            0  1127    2    1    0    0    3    0    2    0
+2           14     4  940    7    9    3    8   20   26    1
+3            1     5    9  910    0   47    0   18   15    5
+4            1     4    1    0  942    1    8    3    3   19
+5            2     1    0    2    0  873    7    1    5    1
+6            6     4    0    0    2   19  920    0    7    0
+7            1    11   11    2    7    1    0  968    3   24
+8            9     3    3    5    8   11    6    9  916    4
+9            9     9    1    4   20   13    1   14    7  931
+Class-wise accuracy:
+0    0.986735
+1    0.992952
+2    0.910853
+3    0.900990
+4    0.959267
+5    0.978700
+6    0.960334
+7    0.941634
+8    0.940452
+9    0.922696
+dtype: float64
+**======================================**
+step 1200, training accuracy 0.8
+step 1300, training accuracy 0.8
+step 1400, training accuracy 0.78
+step 1500, training accuracy 0.82
+step 1600, training accuracy 0.82
+step 1700, training accuracy 0.84
+step 1800, training accuracy 0.84
+step 1900, training accuracy 0.84
+step 2000, training accuracy 0.74
+step 2100, training accuracy 0.88
+step 2200, training accuracy 0.86
+% ==== Iteration2 : Test accuracy = 0.9696 ==== %
+Confusion Matrix: 
+Predicted    0     1    2    3    4    5    6    7    8    9
+Actual                                                      
+0          967     1    2    0    0    2    6    1    1    0
+1            0  1124    3    0    1    0    4    0    3    0
+2            7     0  992    6    2    0    2    8   15    0
+3            0     0   10  967    0   11    0    7   12    3
+4            1     4    1    0  952    0    7    1    2   14
+5            2     0    0    5    0  876    5    0    3    1
+6            4     2    0    0    1    2  946    0    3    0
+7            1     9   18    6    2    1    0  979    1   11
+8            5     1    4    8    4    8    4    3  935    2
+9            5     8    1    6    8   11    1    5    6  958
+Class-wise accuracy:
+0    0.986735
+1    0.990308
+2    0.961240
+3    0.957426
+4    0.969450
+5    0.982063
+6    0.987474
+7    0.952335
+8    0.959959
+9    0.949455
+dtype: float64
+**======================================**
+step 2300, training accuracy 0.92
+step 2400, training accuracy 0.86
+step 2500, training accuracy 0.84
+step 2600, training accuracy 0.78
+step 2700, training accuracy 0.86
+step 2800, training accuracy 0.92
+step 2900, training accuracy 0.96
+step 3000, training accuracy 0.78
+step 3100, training accuracy 0.92
+step 3200, training accuracy 0.78
+step 3300, training accuracy 0.92
+% ==== Iteration3 : Test accuracy = 0.9744 ==== %
+Confusion Matrix: 
+Predicted    0     1    2    3    4    5    6    7    8    9
+Actual                                                      
+0          970     1    1    1    0    1    2    1    3    0
+1            0  1125    2    1    0    2    3    0    2    0
+2            5     0  998    5    2    1    1    9   11    0
+3            0     0    5  971    0   17    0    7    7    3
+4            1     2    1    0  950    0    7    2    3   16
+5            2     0    0    3    0  883    3    0    1    0
+6            6     2    0    0    2    5  938    0    5    0
+7            1     4   16    1    0    1    0  993    2   10
+8            4     0    3    6    4    4    1    5  941    6
+9            5     4    1    6    3    6    0    4    5  975
+Class-wise accuracy:
+0    0.989796
+1    0.991189
+2    0.967054
+3    0.961386
+4    0.967413
+5    0.989910
+6    0.979123
+7    0.965953
+8    0.966119
+9    0.966303
+dtype: float64
+**======================================**
+step 3400, training accuracy 0.88
+step 3500, training accuracy 0.78
+step 3600, training accuracy 0.8
+step 3700, training accuracy 0.82
+step 3800, training accuracy 0.84
+step 3900, training accuracy 0.82
+step 4000, training accuracy 0.82
+step 4100, training accuracy 0.86
+step 4200, training accuracy 0.84
+step 4300, training accuracy 0.82
+step 4400, training accuracy 0.84
+% ==== Iteration4 : Test accuracy = 0.9787 ==== %
+Confusion Matrix: 
+Predicted    0     1     2    3    4    5    6     7    8    9
+Actual                                                        
+0          971     1     2    0    0    1    2     2    1    0
+1            0  1129     3    0    0    1    2     0    0    0
+2            3     0  1015    4    2    0    1     5    2    0
+3            0     0     3  995    0    2    0     7    2    1
+4            1     0     1    0  964    0    4     1    2    9
+5            2     0     0    7    0  879    3     0    0    1
+6            7     3     0    1    3    5  935     0    4    0
+7            1     4    13    1    1    1    0  1003    0    4
+8            5     0     7   12    6    4    3     5  927    5
+9            3     5     3    9    9    3    1     6    1  969
+Class-wise accuracy:
+0    0.990816
+1    0.994714
+2    0.983527
+3    0.985149
+4    0.981670
+5    0.985426
+6    0.975992
+7    0.975681
+8    0.951745
+9    0.960357
+dtype: float64
+**======================================**
+step 4500, training accuracy 0.88
+step 4600, training accuracy 0.88
+step 4700, training accuracy 0.76
+step 4800, training accuracy 0.88
+step 4900, training accuracy 0.9
+step 5000, training accuracy 0.88
+step 5100, training accuracy 0.94
+step 5200, training accuracy 0.74
+step 5300, training accuracy 0.9
+step 5400, training accuracy 0.88
+step 5500, training accuracy 0.74
+% ==== Iteration5 : Test accuracy = 0.9817 ==== %
+Confusion Matrix: 
+Predicted    0     1     2    3    4    5    6     7    8    9
+Actual                                                        
+0          974     0     1    0    0    1    3     1    0    0
+1            0  1130     3    0    0    0    2     0    0    0
+2            4     0  1012    1    1    0    1     7    6    0
+3            0     0     5  988    0    3    0     7    2    5
+4            1     1     1    0  965    0    5     0    2    7
+5            2     0     0    3    1  881    4     0    0    1
+6            3     2     0    0    1    1  950     0    1    0
+7            1     2    12    1    0    1    0  1001    0   10
+8            5     0     4    7    6    4    2     4  935    7
+9            5     3     1    5    6    2    0     5    1  981
+Class-wise accuracy:
+0    0.993878
+1    0.995595
+2    0.980620
+3    0.978218
+4    0.982688
+5    0.987668
+6    0.991649
+7    0.973735
+8    0.959959
+9    0.972250
+dtype: float64
+**======================================**
